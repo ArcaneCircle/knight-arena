@@ -1,4 +1,4 @@
-import "webxdc-scores";
+import "@webxdc/highscores";
 import { GameVars, toPixelSize } from "./game-variables";
 import { Game } from "./game";
 import {
@@ -598,4 +598,4 @@ const updateHighScore = () => {
 };
 
 window.focus();
-window.highscores.init("Knight Arena").then(init);
+window.highscores.init().then(init);

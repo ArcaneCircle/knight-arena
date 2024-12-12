@@ -139,8 +139,8 @@ export class Game {
       GameVars.gameLevel < 3
         ? "#2f492c"
         : GameVars.gameLevel < 5
-        ? "#38252e"
-        : "#1b1116";
+          ? "#38252e"
+          : "#1b1116";
     drawPixelTextInCanvas(
       convertTextToPixelArt("level " + GameVars.gameLevel),
       this.mainRoom.roomCanv,

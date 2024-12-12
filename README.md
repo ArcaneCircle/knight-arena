@@ -51,7 +51,7 @@ This game was originally created for the [2023 js13kGames](https://js13kgames.co
 
 ### Installing Dependencies
 
-After cloning this repo, install dependecies:
+After cloning this repo, install dependencies:
 
 ```
 pnpm i
@@ -68,8 +68,6 @@ pnpm check
 To test your work in your browser (with hot reloading!) while developing:
 
 ```
-pnpm dev
-# Alternatively to test in a more advanced WebXDC emulator:
 pnpm start
 ```
 

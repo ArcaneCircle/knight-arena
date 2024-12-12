@@ -195,8 +195,8 @@ export class Enemy {
       (weapon.weaponType === WeaponType.FIST
         ? 4
         : isProjectileWeapon(weapon.weaponType)
-        ? 16
-        : 2)
+          ? 16
+          : 2)
     );
   }
 

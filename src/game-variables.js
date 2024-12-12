@@ -111,14 +111,14 @@ const calcResizePos = (x, y) => {
       newX < toPixelSize(48)
         ? toPixelSize(48)
         : newX > GameVars.gameW - toPixelSize(48)
-        ? GameVars.gameW - toPixelSize(48)
-        : newX,
+          ? GameVars.gameW - toPixelSize(48)
+          : newX,
     y:
       newY < toPixelSize(48)
         ? toPixelSize(48)
         : newY > GameVars.gameH - toPixelSize(48)
-        ? GameVars.gameH - toPixelSize(48)
-        : newY,
+          ? GameVars.gameH - toPixelSize(48)
+          : newY,
   };
 };
 

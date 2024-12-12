@@ -101,8 +101,8 @@ export class Minimap {
         roomType === RoomType.BOSS
           ? "#a80000"
           : roomType === RoomType.TREASURE
-          ? "#ffff57"
-          : "";
+            ? "#ffff57"
+            : "";
       this.minimapCanv
         .getContext("2d")
         .fillRect(
